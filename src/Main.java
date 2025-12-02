@@ -31,7 +31,7 @@ public class Main {
         }
 
         //Key - value pair
-        //Bruk punktum bak mapStorage for å se hvilke metoder dere kan bruke.
+        //Bruk punktum bak mapStorage for å se hvilke metoder dere kan bruke hvis dere ikke husker/er usikre.
         //mapStorage. også vil intelliJ gi dere forslag, kan hjelpe hvis dere ikke husker en spesifikk metode
         System.out.println("HashMap: ");
         HashMap<String, Integer> mapStorage = new HashMap<>();
@@ -40,7 +40,8 @@ public class Main {
         mapStorage.put("Kyllingfillet", 150);
         mapStorage.put("Kyllingfillet", 180);
 
-        //HashMap lagrer ikke på indekser, dermor kan vi ikke bruke en vanlig for loop for å hente ut verdiene.
+        //HashMap lagrer ikke på indekser, dermed kan vi ikke bruke en vanlig for loop for å hente ut verdiene.
+        //Her kunne man også bare gjort en System.out.println(mapStorage); og fått ut alt som inneholder.
         for(String i : mapStorage.keySet()){
             System.out.println("Key name " + i + " and the value(price in this case) that belongs to it "+ mapStorage.get(i));
         }
