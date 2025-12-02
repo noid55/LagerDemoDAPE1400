@@ -51,6 +51,7 @@ public class Main {
         HashMap<Integer, Integer> intMap = new HashMap<>();
 
         //java gjør magi i bakgrunnen slik at selv om vi legger inn ints, så blir de gjort om til Objekter
+        //Høyreklikk på add biten, Go-to -> Declaration or usages for å se hvordan denne metoden fungerer,
         intList.add(11);
 
 
